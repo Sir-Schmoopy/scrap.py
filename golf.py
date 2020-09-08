@@ -6,6 +6,8 @@ list2 = ["Abby", "Aleisa", "Andrew", "Angie", "BenK", "BenN", "BenW", "Billy", "
 for i in range(len(list1)):
     mugger1 = random.choice(list1)
     mugger2 = random.choice(list2)
+    if mugger1 == mugger2:
+        pass
     if mugger1 != mugger2:
         list1.remove(mugger1)
         list2.remove(mugger2)
