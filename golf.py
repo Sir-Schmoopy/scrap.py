@@ -7,6 +7,6 @@ for i in range(len(list1)):
     mugger1 = random.choice(list1)
     mugger2 = random.choice(list2)
     if mugger1 != mugger2:
+        list1.remove(mugger1)
+        list2.remove(mugger2)
         print("{} {}".format(mugger1, mugger2))
-    list1.remove(mugger1)
-    list2.remove(mugger2)
