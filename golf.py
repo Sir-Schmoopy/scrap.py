@@ -1,7 +1,7 @@
 import random
 
-list1 = ["Abby", "Aleisa", "Andrew", "Angie", "BenK", "BenN", "BenW", "Billy", "Brittany", "Caleb", "Corey", "Cyrus", "Dakota", "Des", "Garrett", "Jared", "Jed", "Joshua", "Lida", "Lindsey", "Marian", "Mathew", "Bergy", "Schmidty", "Nathan", "Paul", "Samuel", "Sarah", "Sean", "Sky", "Steve", "Taryn", "Tiera", "Tori"]
-list2 = ["Abby", "Aleisa", "Andrew", "Angie", "BenK", "BenN", "BenW", "Billy", "Brittany", "Caleb", "Corey", "Cyrus", "Dakota", "Des", "Garrett", "Jared", "Jed", "Joshua", "Lida", "Lindsey", "Marian", "Mathew", "Bergy", "Schmidty", "Nathan", "Paul", "Samuel", "Sarah", "Sean", "Sky", "Steve", "Taryn", "Tiera", "Tori"]
+list1 = ["Abby", "Aleisa", "Andrew", "Angie", "BenK", "BenN", "BenW", "Billy", "Brittany", "Caleb", "Corey", "Cyrus", "Dakota", "Des", "Garrett", "Jared", "Jed", "Joshua", "Jorge", "Lida", "Lindsey", "Marian", "Mathew", "Bergy", "Schmidty", "Nathan", "Paul", "Samuel", "Sarah", "Sean", "Sky", "Steve", "Taryn", "Tiera", "Tori"]
+list2 = ["Abby", "Aleisa", "Andrew", "Angie", "BenK", "BenN", "BenW", "Billy", "Brittany", "Caleb", "Corey", "Cyrus", "Dakota", "Des", "Garrett", "Jared", "Jed", "Joshua", "Jorge", "Lida", "Lindsey", "Marian", "Mathew", "Bergy", "Schmidty", "Nathan", "Paul", "Samuel", "Sarah", "Sean", "Sky", "Steve", "Taryn", "Tiera", "Tori"]
 
 for i in range(len(list1)):
     mugger1 = random.choice(list1)
